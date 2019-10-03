@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	min-height: 500px;
+	border: 2px solid red;
+	width: 40%;
+	margin: 100px auto;
+	position: relative;
+}
+.box{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+}
+.box1{
+	background-color: brown;
+	top: 0;
+	left: 0;
+}
+.box2{
+	background-color: gold;
+	right: 0;
+	bottom: 0;
+}
+.box3{
+	background-color: orange;
+	left: 0;
+	right: 0;
+	margin: 200px auto;
+}
+.box4{
+	background-color: navy;
+	top: 0;
+	right: 0;
+}
+.box5{
+	background-color: violet;
+	left: 0;
+	bottom: 0;
+}
